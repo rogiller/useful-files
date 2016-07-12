@@ -1,10 +1,19 @@
+#Project shortcuts
 alias flex="cd ~/projects/flex"
 alias fpm="cd ~/projects/flex/flex-production-manager"
+alias fbl="cd ~/projects/flex/flex-base/logs"
 alias ansible="cd ~/projects/flex/ansible"
+
+#Vagrant
 alias v="vagrant"
-alias vup="fpm && v up"
-alias vdown="fpm && v halt"
-alias vssh="fpm && vagrant ssh"
+alias vgs="vagrant global-status"
+alias vup="v up"
+alias vdown="v halt"
+alias vssh="vagrant ssh"
+
+#Jetty
 alias jstart="fpm && vagrant ssh -c 'sudo service jetty-rogerdev start'"
 alias jstop="fpm && vagrant ssh -c 'sudo service jetty-rogerdev stop'"
-alias fbl="cd ~/projects/flex/flex-base/logs"
+
+#Misc
+alias ll='ls -alhG'

@@ -10,6 +10,7 @@ alias vgs="vagrant global-status"
 alias vup="v up"
 alias vdown="v halt"
 alias vssh="vagrant ssh"
+alias vroot="vagrant ssh -c 'sudo -i'"
 
 #Jetty
 alias jstart="fpm && vagrant ssh -c 'sudo service jetty-rogerdev start'"
@@ -17,3 +18,6 @@ alias jstop="fpm && vagrant ssh -c 'sudo service jetty-rogerdev stop'"
 
 #Misc
 alias ll='ls -alhG'
+
+#SSH config compile
+alias cssh='echo -n > ~/.ssh/config && cat ~/.ssh/*.config > ~/.ssh/config'

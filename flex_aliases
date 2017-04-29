@@ -10,6 +10,9 @@ alias vroot="vagrant ssh -c 'sudo -i'"
 alias jstart="flex5 && vagrant ssh -c 'sudo service jetty-rogerdev start'"
 alias jstop="flex5 && vagrant ssh -c 'sudo service jetty-rogerdev stop'"
 
+#Git
+alias gtidy="git fetch -p && git branch -vv | grep ': gone]' | awk '{print \$1}' | xargs git branch -D && echo Git cleanup finished."
+
 #Misc
 alias ll='ls -alhG'
 

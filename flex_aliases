@@ -12,6 +12,10 @@ alias jstop="flex5 && vagrant ssh -c 'sudo service jetty-rogerdev stop'"
 
 #Git
 alias gtidy="git fetch -p && git branch -vv | grep ': gone]' | awk '{print \$1}' | xargs git branch -D && echo Git cleanup finished."
+gfb(){
+    git pull
+    git checkout -b feature/"$1"
+}
 
 #Misc
 alias ll='ls -alhG'

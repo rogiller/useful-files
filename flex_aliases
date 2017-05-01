@@ -11,14 +11,26 @@ alias jstart="flex5 && vagrant ssh -c 'sudo service jetty-rogerdev start'"
 alias jstop="flex5 && vagrant ssh -c 'sudo service jetty-rogerdev stop'"
 
 #Git
+
+#Fetch & prune non-existent remote branches and then delete any local branches where the remote is gone. Branches not yet pushed to remote will stay intact.
 alias gtidy="git fetch -p && git branch -vv | grep ': gone]' | awk '{print \$1}' | xargs git branch -D && echo Git cleanup finished."
-alias gs="git status"
-alias gm="git checkout master && git pull"
-alias gb="git branch -a -v"
+
+#Pulls latest changes, then branches with the "feature/" as the branch pre-fix
 gfb(){
     git pull
     git checkout -b feature/"$1"
 }
+
+#Put me on master and pull latest
+alias gm="git checkout master && git pull"
+
+#Show me all branches
+alias gb="git branch -a -v"
+
+#Status shortcut
+alias gs="git status"
+
+
 
 #Misc
 alias ll='ls -alhG'

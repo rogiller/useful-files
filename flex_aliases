@@ -27,6 +27,9 @@ alias glog='git log --graph --abbrev-commit --decorate --date=relative --format=
 #Put me on master and pull latest
 alias gm="git checkout master && git pull"
 
+#pull with rebase
+alias gpr="git pull --rebase"
+
 #Show me all branches
 alias gb="git branch -a -v"
 

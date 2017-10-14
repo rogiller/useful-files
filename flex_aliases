@@ -46,9 +46,10 @@ alias cssh='echo -n > ~/.ssh/config && cat ~/.ssh/*.config > ~/.ssh/config'
 
 #Project shortcuts
 alias flex="cd ~/projects/flex"
-alias flex4="cd ~/projects/flex/flex4"
-alias flex5="cd ~/projects/flex/flex5"
+alias f4="cd ~/projects/flex/flex4"
+alias f5="cd ~/projects/flex/flex5"
+alias f5ext="cd ~/projects/flex/flex5-extjs-client"
 alias flexv="flex5 && vroot"
 alias fbl="cd ~/projects/flex/flex-base/logs"
-alias ansible="cd ~/projects/flex/ansible"
+alias ans="cd ~/projects/flex/ansible"
 

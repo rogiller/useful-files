@@ -49,7 +49,7 @@ alias flex="cd ~/projects/flex"
 alias f4="cd ~/projects/flex/flex4"
 alias f5="cd ~/projects/flex/flex5"
 alias f5ext="cd ~/projects/flex/flex5-extjs-client"
-alias flexv="flex5 && vroot"
+alias flexv="f5 && vroot"
 alias fbl="cd ~/projects/flex/flex-base/logs"
 alias ans="cd ~/projects/flex/ansible"
 

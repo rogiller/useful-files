@@ -7,8 +7,8 @@ alias vssh="vagrant ssh"
 alias vroot="vagrant ssh -c 'sudo -i'"
 
 #Jetty
-alias jstart="flex5 && vagrant ssh -c 'sudo service jetty-rogerdev start'"
-alias jstop="flex5 && vagrant ssh -c 'sudo service jetty-rogerdev stop'"
+alias jstart="f5 && vagrant ssh -c 'sudo service jetty-rogerdev start'"
+alias jstop="f5 && vagrant ssh -c 'sudo service jetty-rogerdev stop'"
 
 #Git
 

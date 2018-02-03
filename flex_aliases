@@ -5,6 +5,7 @@ alias vup="v up"
 alias vdown="v halt"
 alias vssh="vagrant ssh"
 alias vroot="vagrant ssh -c 'sudo -i'"
+alias vloop="sudo ifconfig lo0 alias 10.0.2.2 up"
 
 #Jetty
 alias jstart="f5 && vagrant ssh -c 'sudo service jetty-rogerdev start'"

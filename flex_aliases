@@ -37,10 +37,9 @@ alias gb="git branch -a -v"
 #Status shortcut
 alias gs="git status"
 
-
-
 #Misc
 alias ll='ls -alhG'
+port() { lsof -i :"$1" -S } #This will give you info about what is running behind the port.
 
 #SSH config compile
 alias cssh='echo -n > ~/.ssh/config && cat ~/.ssh/*.config > ~/.ssh/config'

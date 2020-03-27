@@ -11,6 +11,10 @@ alias vloop="sudo ifconfig lo0 alias 10.0.2.2 up"
 alias jstart="f5 && vagrant ssh -c 'sudo service jetty-rogerdev start'"
 alias jstop="f5 && vagrant ssh -c 'sudo service jetty-rogerdev stop'"
 
+#Java
+alias java8="sdk use java 8.0.232-amzn"
+alias java11="sdk use java 11.0.5-amzn"
+
 #Git
 
 #Fetch & prune non-existent remote branches and then delete any local branches where the remote is gone. Branches not yet pushed to remote will stay intact.

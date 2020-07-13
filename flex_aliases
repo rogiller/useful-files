@@ -8,8 +8,8 @@ alias vroot="vagrant ssh -c 'sudo -i'"
 alias vloop="sudo ifconfig lo0 alias 10.0.2.2 up"
 
 #Jetty
-alias jstart="f5 && vagrant ssh -c 'sudo service jetty-rogerdev start'"
-alias jstop="f5 && vagrant ssh -c 'sudo service jetty-rogerdev stop'"
+alias jstart="f5 && vagrant ssh -c 'sudo systemctl start jetty-rogerdev.service'"
+alias jstop="f5 && vagrant ssh -c 'sudo systemctl stop jetty-rogerdev.service'"
 
 #Java
 alias java8="sdk use java 8.0.232-amzn"

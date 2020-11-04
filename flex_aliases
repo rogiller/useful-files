@@ -62,4 +62,5 @@ alias f5d="cd ~/projects/flex/flex5-desktop"
 alias flexv="f5 && vroot"
 alias fbl="cd ~/projects/flex/flex-base/logs"
 alias ans="cd ~/projects/flex/ansible"
+alias senchab="sencha app build --dev --uses"
 

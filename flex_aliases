@@ -13,6 +13,7 @@ alias jstop="f5 && vagrant ssh -c 'sudo systemctl stop jetty-rogerdev.service'"
 
 #Flex5 Docker
 alias docker-tail-f5="docker exec -it flex5-docker tail -f logs/flex5.8500.log"
+alias docker-bash-f5="docker exec -it flex5-docker /bin/bash"
 
 #Java
 alias java8="sdk use java 8.0.232-amzn"

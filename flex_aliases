@@ -51,6 +51,10 @@ alias gb="git branch -a -v"
 #Status shortcut
 alias gs="git status"
 
+#Gradle
+alias deployJar="./gradlew -x test deployJar"
+
+
 #Misc
 alias ll='ls -alhG'
 port() { lsof -i :"$1" -S } #This will give you info about what is running behind the port.

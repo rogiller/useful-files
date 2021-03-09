@@ -52,7 +52,7 @@ alias gb="git branch -a -v"
 alias gs="git status"
 
 #Gradle
-alias deployJar="./gradlew -x test deployJar"
+alias deployJar="./gradlew -x check deployJar"
 
 
 #Misc

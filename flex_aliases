@@ -54,6 +54,8 @@ alias gs="git status"
 #Gradle
 alias deployJar="./gradlew -x check deployJar"
 
+#DNS
+alias clearDNS="sudo killall -HUP mDNSResponder;sudo killall mDNSResponderHelper;sudo dscacheutil -flushcache"
 
 #Misc
 alias ll='ls -alhG'
